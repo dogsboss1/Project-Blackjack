@@ -64,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				A4F8979A1B29B949000EBE66 /* Project Blackjack */,
-				A4F897B41B29B94C000EBE66 /* Project BlackjackTests */,
-				A4F897991B29B949000EBE66 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,13 +74,12 @@
 				A4F897B11B29B94C000EBE66 /* Project BlackjackTests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A4F8979A1B29B949000EBE66 /* Project Blackjack */ = {
 			isa = PBXGroup;
 			children = (
-				A4F8979F1B29B94A000EBE66 /* AppDelegate.h */,
-				A4F897A01B29B94B000EBE66 /* AppDelegate.m */,
 				A4F897A21B29B94B000EBE66 /* ViewController.h */,
 				A4F897A31B29B94B000EBE66 /* ViewController.m */,
 				A4F897A51B29B94B000EBE66 /* Main.storyboard */,
@@ -96,6 +93,10 @@
 		A4F8979B1B29B949000EBE66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4F8979F1B29B94A000EBE66 /* AppDelegate.h */,
+				A4F897A01B29B94B000EBE66 /* AppDelegate.m */,
+				A4F897B41B29B94C000EBE66 /* Project BlackjackTests */,
+				A4F897991B29B949000EBE66 /* Products */,
 				A4F8979C1B29B94A000EBE66 /* Info.plist */,
 				A4F8979D1B29B94A000EBE66 /* main.m */,
 			);
@@ -109,7 +110,7 @@
 				A4F897B51B29B94C000EBE66 /* Supporting Files */,
 			);
 			path = "Project BlackjackTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		A4F897B51B29B94C000EBE66 /* Supporting Files */ = {
 			isa = PBXGroup;
