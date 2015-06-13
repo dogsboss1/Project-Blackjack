@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A48172071B2BF95F00942223 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48172061B2BF95F00942223 /* CalculatorViewController.m */; };
+		A48172101B2BFA6300942223 /* MsgsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A481720F1B2BFA6300942223 /* MsgsViewController.m */; };
+		A48172131B2BFA7800942223 /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48172121B2BFA7800942223 /* CalenderViewController.m */; };
+		A48172161B2BFA8900942223 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48172151B2BFA8900942223 /* FriendsViewController.m */; };
+		A48172191B2BFA9800942223 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48172181B2BFA9800942223 /* OtherViewController.m */; };
+		A481721C1B2BFB0300942223 /* CoolSpyStuffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A481721B1B2BFB0300942223 /* CoolSpyStuffViewController.m */; };
 		A4F8979E1B29B94A000EBE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F8979D1B29B94A000EBE66 /* main.m */; };
 		A4F897A11B29B94B000EBE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F897A01B29B94B000EBE66 /* AppDelegate.m */; };
-		A4F897A41B29B94B000EBE66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F897A31B29B94B000EBE66 /* ViewController.m */; };
 		A4F897A71B29B94B000EBE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F897A51B29B94B000EBE66 /* Main.storyboard */; };
 		A4F897A91B29B94B000EBE66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F897A81B29B94B000EBE66 /* Images.xcassets */; };
 		A4F897AC1B29B94B000EBE66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F897AA1B29B94B000EBE66 /* LaunchScreen.xib */; };
@@ -27,13 +32,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A48172051B2BF95F00942223 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		A48172061B2BF95F00942223 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		A481720E1B2BFA6300942223 /* MsgsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgsViewController.h; sourceTree = "<group>"; };
+		A481720F1B2BFA6300942223 /* MsgsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgsViewController.m; sourceTree = "<group>"; };
+		A48172111B2BFA7800942223 /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderViewController.h; sourceTree = "<group>"; };
+		A48172121B2BFA7800942223 /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderViewController.m; sourceTree = "<group>"; };
+		A48172141B2BFA8900942223 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		A48172151B2BFA8900942223 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		A48172171B2BFA9800942223 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		A48172181B2BFA9800942223 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		A481721A1B2BFB0300942223 /* CoolSpyStuffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolSpyStuffViewController.h; sourceTree = "<group>"; };
+		A481721B1B2BFB0300942223 /* CoolSpyStuffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolSpyStuffViewController.m; sourceTree = "<group>"; };
 		A4F897981B29B949000EBE66 /* Project Blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Blackjack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F8979C1B29B94A000EBE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F8979D1B29B94A000EBE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4F8979F1B29B94A000EBE66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4F897A01B29B94B000EBE66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4F897A21B29B94B000EBE66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4F897A31B29B94B000EBE66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4F897A61B29B94B000EBE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4F897A81B29B94B000EBE66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A4F897AB1B29B94B000EBE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +75,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A48172041B2BF93500942223 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A48172051B2BF95F00942223 /* CalculatorViewController.h */,
+				A48172061B2BF95F00942223 /* CalculatorViewController.m */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		A48172081B2BF96D00942223 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				A481720D1B2BFA4100942223 /* Other */,
+				A481720B1B2BF98500942223 /* Msgs */,
+				A481720A1B2BF97C00942223 /* Calender */,
+				A48172091B2BF97400942223 /* Friends */,
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		A48172091B2BF97400942223 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				A48172141B2BFA8900942223 /* FriendsViewController.h */,
+				A48172151B2BFA8900942223 /* FriendsViewController.m */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		A481720A1B2BF97C00942223 /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				A48172111B2BFA7800942223 /* CalenderViewController.h */,
+				A48172121B2BFA7800942223 /* CalenderViewController.m */,
+			);
+			name = Calender;
+			sourceTree = "<group>";
+		};
+		A481720B1B2BF98500942223 /* Msgs */ = {
+			isa = PBXGroup;
+			children = (
+				A481720E1B2BFA6300942223 /* MsgsViewController.h */,
+				A481720F1B2BFA6300942223 /* MsgsViewController.m */,
+			);
+			name = Msgs;
+			sourceTree = "<group>";
+		};
+		A481720C1B2BF9E900942223 /* Cool stuff */ = {
+			isa = PBXGroup;
+			children = (
+				A481721A1B2BFB0300942223 /* CoolSpyStuffViewController.h */,
+				A481721B1B2BFB0300942223 /* CoolSpyStuffViewController.m */,
+			);
+			name = "Cool stuff";
+			sourceTree = "<group>";
+		};
+		A481720D1B2BFA4100942223 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A48172171B2BFA9800942223 /* OtherViewController.h */,
+				A48172181B2BFA9800942223 /* OtherViewController.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		A4F8978F1B29B949000EBE66 = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +160,9 @@
 		A4F8979A1B29B949000EBE66 /* Project Blackjack */ = {
 			isa = PBXGroup;
 			children = (
-				A4F897A21B29B94B000EBE66 /* ViewController.h */,
-				A4F897A31B29B94B000EBE66 /* ViewController.m */,
+				A481720C1B2BF9E900942223 /* Cool stuff */,
+				A48172081B2BF96D00942223 /* Tab Bar */,
+				A48172041B2BF93500942223 /* Calculator */,
 				A4F897A51B29B94B000EBE66 /* Main.storyboard */,
 				A4F897A81B29B94B000EBE66 /* Images.xcassets */,
 				A4F897AA1B29B94B000EBE66 /* LaunchScreen.xib */,
@@ -220,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F897A41B29B94B000EBE66 /* ViewController.m in Sources */,
+				A48172101B2BFA6300942223 /* MsgsViewController.m in Sources */,
+				A48172191B2BFA9800942223 /* OtherViewController.m in Sources */,
+				A48172161B2BFA8900942223 /* FriendsViewController.m in Sources */,
 				A4F897A11B29B94B000EBE66 /* AppDelegate.m in Sources */,
+				A48172071B2BF95F00942223 /* CalculatorViewController.m in Sources */,
+				A48172131B2BFA7800942223 /* CalenderViewController.m in Sources */,
 				A4F8979E1B29B94A000EBE66 /* main.m in Sources */,
+				A481721C1B2BFB0300942223 /* CoolSpyStuffViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +439,7 @@
 				INFOPLIST_FILE = "Project Blackjack/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -363,6 +450,7 @@
 				INFOPLIST_FILE = "Project Blackjack/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -419,6 +507,7 @@
 				A4F897BD1B29B94C000EBE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F897BE1B29B94C000EBE66 /* Build configuration list for PBXNativeTarget "Project BlackjackTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +516,7 @@
 				A4F897C01B29B94C000EBE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
