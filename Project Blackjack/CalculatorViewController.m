@@ -26,27 +26,30 @@
     frame0.origin.y = 976;
     [self.zeroButtonLabel setFrame:frame0];*/
     
-    [self.zeroButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.oneButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.twoButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.threeButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.fourButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.fiveButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.sixButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.sevenButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.eightButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.nineButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.zeroButtonLabel setFrame:CGRectMake(0, self.view.frame.size.height - 150, 159, 160)];
+    [self.oneButtonLabel setFrame:CGRectMake(0, 815, 159, 160)];
+    [self.twoButtonLabel setFrame:CGRectMake(160, 815, 159, 160)];
+    [self.threeButtonLabel setFrame:CGRectMake(320, 815, 159, 160)];
+    [self.fourButtonLabel setFrame:CGRectMake(0, 654, 159, 160)];
+    [self.fiveButtonLabel setFrame:CGRectMake(160, 654, 159, 160)];
+    [self.sixButtonLabel setFrame:CGRectMake(320, 654, 159, 160)];
+    [self.sevenButtonLabel setFrame:CGRectMake(0, 493, 159, 160)];
+    [self.eightButtonLabel setFrame:CGRectMake(160, 493, 159, 160)];
+    [self.nineButtonLabel setFrame:CGRectMake(320, 493, 159, 160)];
     
-    [self.decimalButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.ACButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.extrasButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.postiiveOrNegativeButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.decimalButtonLabel setFrame:CGRectMake(320, 976, 159, 160)];
+    [self.ACButtonLabel setFrame:CGRectMake(0, 332, 159, 160)];
+    [self.extrasButtonLabel setFrame:CGRectMake(160, 332, 159, 160)];
+    [self.postiiveOrNegativeButtonLabel setFrame:CGRectMake(320, 332, 159, 160)];
     
-    [self.divideButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.multiplyButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.minusButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.plusButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
-    [self.equalsButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.divideButtonLabel setFrame:CGRectMake(480, 332, 160, 160)];
+    [self.multiplyButtonLabel setFrame:CGRectMake(480, 493, 160, 160)];
+    [self.minusButtonLabel setFrame:CGRectMake(480, 654, 160, 160)];
+    [self.plusButtonLabel setFrame:CGRectMake(480, 815, 160, 160)];
+    [self.equalsButtonLabel setFrame:CGRectMake(480, 976, 160, 160)];
+     
+    
+    [self.nineButtonLabel setImage:[UIImage imageNamed:@"calculator square - Numbs"] forState:UIControlStateNormal];
 }
 
 - (void)addNumber:(int)number {
