@@ -10,7 +10,7 @@
 
 @interface CalculatorViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextView *calculationsDisplayTextField;
+//@property (weak, nonatomic) IBOutlet UITextView *calculationsDisplayTextField;
 
 - (IBAction)showAllCalculationsButtonPressed:(UIButton *)sender;
 - (IBAction)correctComboButtonPressed:(UIButton *)sender;
@@ -35,6 +35,8 @@
 - (IBAction)sevenButtonPressed:(UIButton *)sender;
 - (IBAction)eightButtonPressed:(UIButton *)sender;
 - (IBAction)nineButtonPressed:(UIButton *)sender;
+
+- (IBAction)testButtonPressed:(UIButton *)sender;
 
 @property (weak, nonatomic) IBOutlet UILabel *calculationDisplayLabel;
 @property (weak, nonatomic) IBOutlet UILabel *operatorLabel;

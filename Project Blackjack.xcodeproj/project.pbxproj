@@ -13,6 +13,10 @@
 		A48172161B2BFA8900942223 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48172151B2BFA8900942223 /* FriendsViewController.m */; };
 		A48172191B2BFA9800942223 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48172181B2BFA9800942223 /* OtherViewController.m */; };
 		A481721C1B2BFB0300942223 /* CoolSpyStuffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A481721B1B2BFB0300942223 /* CoolSpyStuffViewController.m */; };
+		A48172221B2C141F00942223 /* calculator square - Numbs.png in Resources */ = {isa = PBXBuildFile; fileRef = A481721E1B2C141F00942223 /* calculator square - Numbs.png */; };
+		A48172231B2C141F00942223 /* calculator square - Operator.png in Resources */ = {isa = PBXBuildFile; fileRef = A481721F1B2C141F00942223 /* calculator square - Operator.png */; };
+		A48172241B2C141F00942223 /* calculator square other.png in Resources */ = {isa = PBXBuildFile; fileRef = A48172201B2C141F00942223 /* calculator square other.png */; };
+		A48172251B2C141F00942223 /* Untitled-smoothGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = A48172211B2C141F00942223 /* Untitled-smoothGradient.png */; };
 		A4F8979E1B29B94A000EBE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F8979D1B29B94A000EBE66 /* main.m */; };
 		A4F897A11B29B94B000EBE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F897A01B29B94B000EBE66 /* AppDelegate.m */; };
 		A4F897A71B29B94B000EBE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F897A51B29B94B000EBE66 /* Main.storyboard */; };
@@ -44,6 +48,10 @@
 		A48172181B2BFA9800942223 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		A481721A1B2BFB0300942223 /* CoolSpyStuffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolSpyStuffViewController.h; sourceTree = "<group>"; };
 		A481721B1B2BFB0300942223 /* CoolSpyStuffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolSpyStuffViewController.m; sourceTree = "<group>"; };
+		A481721E1B2C141F00942223 /* calculator square - Numbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator square - Numbs.png"; path = "Images/calculator square - Numbs.png"; sourceTree = "<group>"; };
+		A481721F1B2C141F00942223 /* calculator square - Operator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator square - Operator.png"; path = "Images/calculator square - Operator.png"; sourceTree = "<group>"; };
+		A48172201B2C141F00942223 /* calculator square other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator square other.png"; path = "Images/calculator square other.png"; sourceTree = "<group>"; };
+		A48172211B2C141F00942223 /* Untitled-smoothGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-smoothGradient.png"; path = "Images/Untitled-smoothGradient.png"; sourceTree = "<group>"; };
 		A4F897981B29B949000EBE66 /* Project Blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Blackjack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F8979C1B29B94A000EBE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F8979D1B29B94A000EBE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -140,6 +148,17 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
+		A481721D1B2C140C00942223 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				A481721E1B2C141F00942223 /* calculator square - Numbs.png */,
+				A481721F1B2C141F00942223 /* calculator square - Operator.png */,
+				A48172201B2C141F00942223 /* calculator square other.png */,
+				A48172211B2C141F00942223 /* Untitled-smoothGradient.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
 		A4F8978F1B29B949000EBE66 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +179,7 @@
 		A4F8979A1B29B949000EBE66 /* Project Blackjack */ = {
 			isa = PBXGroup;
 			children = (
+				A481721D1B2C140C00942223 /* Media */,
 				A481720C1B2BF9E900942223 /* Cool stuff */,
 				A48172081B2BF96D00942223 /* Tab Bar */,
 				A48172041B2BF93500942223 /* Calculator */,
@@ -282,8 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4F897A71B29B94B000EBE66 /* Main.storyboard in Resources */,
+				A48172221B2C141F00942223 /* calculator square - Numbs.png in Resources */,
 				A4F897AC1B29B94B000EBE66 /* LaunchScreen.xib in Resources */,
+				A48172251B2C141F00942223 /* Untitled-smoothGradient.png in Resources */,
 				A4F897A91B29B94B000EBE66 /* Images.xcassets in Resources */,
+				A48172231B2C141F00942223 /* calculator square - Operator.png in Resources */,
+				A48172241B2C141F00942223 /* calculator square other.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
