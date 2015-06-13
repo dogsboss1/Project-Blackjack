@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Calculator View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="98m-hc-9LA"/>
-                        <viewControllerLayoutGuide type="bottom" id="yC9-1V-CG4"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="640" height="1136"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Blackjack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4M-Gd-CNJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Blackjack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z4M-Gd-CNJ">
                                 <rect key="frame" x="5" y="158" width="640" height="27"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="RJ2-ed-4rh"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XeD-Wc-Hxc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XeD-Wc-Hxc">
                                 <rect key="frame" x="0.0" y="332" width="159" height="160"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="159" id="wUW-7K-Cfc"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="AC/C" backgroundImage="calculator square other.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -38,11 +29,9 @@
                                     <action selector="ACButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z7c-c9-1dI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYj-1X-rOw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kYj-1X-rOw">
                                 <rect key="frame" x="320" y="332" width="159" height="160"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="159" id="Jpf-Ta-AaV"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="+/-" backgroundImage="calculator square other.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -50,8 +39,9 @@
                                     <action selector="positiveOrNegativeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MOb-S6-nDy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vz0-Lw-aq0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Vz0-Lw-aq0">
                                 <rect key="frame" x="480" y="332" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="/" backgroundImage="calculator square - Operator.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -59,8 +49,9 @@
                                     <action selector="divideButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DlX-wl-QEB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDG-HD-rnl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cDG-HD-rnl">
                                 <rect key="frame" x="160" y="332" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="( )" backgroundImage="calculator square other.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -68,8 +59,9 @@
                                     <action selector="extrasButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R8Q-38-lJJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3db-WK-eDC">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3db-WK-eDC">
                                 <rect key="frame" x="0.0" y="493" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="7" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -77,8 +69,9 @@
                                     <action selector="sevenButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s0J-em-jUs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBm-nh-zNW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iBm-nh-zNW">
                                 <rect key="frame" x="320" y="493" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="9" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -86,8 +79,9 @@
                                     <action selector="nineButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h9e-XF-pSo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLO-vR-aV3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tLO-vR-aV3">
                                 <rect key="frame" x="480" y="493" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="X" backgroundImage="calculator square - Operator.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -95,8 +89,9 @@
                                     <action selector="timesButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Orw-Eh-85J"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDb-ek-wV5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qDb-ek-wV5">
                                 <rect key="frame" x="160" y="493" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="8" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -104,8 +99,9 @@
                                     <action selector="eightButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pJH-Bc-ybT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9a-5G-bUe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="v9a-5G-bUe">
                                 <rect key="frame" x="0.0" y="654" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="4" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -113,8 +109,9 @@
                                     <action selector="fourButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mc8-TP-chm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKc-Bv-U9D">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vKc-Bv-U9D">
                                 <rect key="frame" x="320" y="654" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="6" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -122,8 +119,9 @@
                                     <action selector="sixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xTq-En-uvw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKb-wA-Uig">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oKb-wA-Uig">
                                 <rect key="frame" x="480" y="654" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="-" backgroundImage="calculator square - Operator.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -131,8 +129,9 @@
                                     <action selector="minusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYc-dw-MEe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYb-cC-uaH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QYb-cC-uaH">
                                 <rect key="frame" x="160" y="654" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="5" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -140,8 +139,9 @@
                                     <action selector="fiveButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i0y-zA-p3s"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xit-VW-YC3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xit-VW-YC3">
                                 <rect key="frame" x="0.0" y="815" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -149,8 +149,9 @@
                                     <action selector="oneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vZe-sm-IXt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXp-RE-LsW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wXp-RE-LsW">
                                 <rect key="frame" x="320" y="815" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="3" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -158,8 +159,9 @@
                                     <action selector="threeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zCq-2K-hzO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kh-VH-n96">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2kh-VH-n96">
                                 <rect key="frame" x="480" y="815" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="+" backgroundImage="calculator square - Operator.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -167,8 +169,9 @@
                                     <action selector="plusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqn-YP-Ubt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Gd-0y-fxl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5Gd-0y-fxl">
                                 <rect key="frame" x="160" y="815" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -176,8 +179,9 @@
                                     <action selector="twoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nbz-eK-ttM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnK-7M-fle">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TnK-7M-fle">
                                 <rect key="frame" x="0.0" y="976" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="0" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -185,8 +189,9 @@
                                     <action selector="zeroButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yZn-Ql-hB9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBJ-Kq-Frs">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zBJ-Kq-Frs">
                                 <rect key="frame" x="320" y="976" width="159" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="." backgroundImage="calculator square - Numbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -194,8 +199,9 @@
                                     <action selector="decimalButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lWf-Yt-xZ8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAz-Ni-wpH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eAz-Ni-wpH">
                                 <rect key="frame" x="480" y="976" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="=" backgroundImage="calculator square - Operator.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -203,8 +209,9 @@
                                     <action selector="equalsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FVA-0E-2Hi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ps-w6-oCd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Ps-w6-oCd">
                                 <rect key="frame" x="291" y="193" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Show all">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -212,24 +219,27 @@
                                     <action selector="showAllCalculationsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFS-B7-MYg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYU-Pf-2jb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BYU-Pf-2jb">
                                 <rect key="frame" x="517" y="38" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Correct password">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="correctComboButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="23G-zu-ugm"/>
-                                    <segue destination="A9D-Qn-wNd" kind="presentation" id="iFP-Pd-2Mr"/>
+                                    <segue destination="A9D-Qn-wNd" kind="modal" id="iFP-Pd-2Mr"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Operator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0X-Ks-A9U">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Operator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h0X-Ks-A9U">
                                 <rect key="frame" x="286" y="250" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwe-oy-Udx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lwe-oy-Udx">
                                 <rect key="frame" x="563" y="76" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Test">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -239,209 +249,133 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="qDb-ek-wV5" firstAttribute="baseline" secondItem="3db-WK-eDC" secondAttribute="baseline" id="1cd-ZM-rbO"/>
-                            <constraint firstItem="TnK-7M-fle" firstAttribute="leading" secondItem="xit-VW-YC3" secondAttribute="leading" id="1r8-14-XOg"/>
-                            <constraint firstItem="v9a-5G-bUe" firstAttribute="baseline" secondItem="QYb-cC-uaH" secondAttribute="baseline" id="1tV-cU-23Y"/>
-                            <constraint firstItem="z4M-Gd-CNJ" firstAttribute="top" secondItem="Lwe-oy-Udx" secondAttribute="bottom" constant="52" id="2Vo-Gy-qtR"/>
-                            <constraint firstItem="qDb-ek-wV5" firstAttribute="leading" secondItem="cDG-HD-rnl" secondAttribute="leading" id="7R9-Jf-3wv"/>
-                            <constraint firstItem="tLO-vR-aV3" firstAttribute="trailing" secondItem="Vz0-Lw-aq0" secondAttribute="trailing" id="9KQ-fh-02E"/>
-                            <constraint firstItem="XeD-Wc-Hxc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AxX-yh-JcP"/>
-                            <constraint firstItem="Vz0-Lw-aq0" firstAttribute="leading" secondItem="tLO-vR-aV3" secondAttribute="leading" id="CKS-Vh-9ar"/>
-                            <constraint firstItem="TnK-7M-fle" firstAttribute="bottom" secondItem="yC9-1V-CG4" secondAttribute="top" id="CXl-NS-sQt"/>
-                            <constraint firstItem="5Gd-0y-fxl" firstAttribute="leading" secondItem="QYb-cC-uaH" secondAttribute="leading" id="Fgl-le-v8R"/>
-                            <constraint firstItem="5Gd-0y-fxl" firstAttribute="baseline" secondItem="wXp-RE-LsW" secondAttribute="baseline" id="HHz-8j-ECd"/>
-                            <constraint firstItem="5Ps-w6-oCd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Irs-al-XsP"/>
-                            <constraint firstItem="kYj-1X-rOw" firstAttribute="baseline" secondItem="Vz0-Lw-aq0" secondAttribute="baseline" id="Jnl-Uc-3lg"/>
-                            <constraint firstItem="3db-WK-eDC" firstAttribute="top" secondItem="XeD-Wc-Hxc" secondAttribute="bottom" constant="1" id="KIR-BF-8VX"/>
-                            <constraint firstItem="XeD-Wc-Hxc" firstAttribute="baseline" secondItem="cDG-HD-rnl" secondAttribute="baseline" id="KvC-XL-nP6"/>
-                            <constraint firstItem="Vz0-Lw-aq0" firstAttribute="trailing" secondItem="BYU-Pf-2jb" secondAttribute="trailing" id="Lbv-Jt-KUg"/>
-                            <constraint firstItem="vKc-Bv-U9D" firstAttribute="leading" secondItem="iBm-nh-zNW" secondAttribute="leading" id="LqU-gj-0od"/>
-                            <constraint firstItem="QYb-cC-uaH" firstAttribute="trailing" secondItem="5Gd-0y-fxl" secondAttribute="trailing" id="NYb-hE-pPK"/>
-                            <constraint firstItem="3db-WK-eDC" firstAttribute="trailing" secondItem="v9a-5G-bUe" secondAttribute="trailing" id="OkW-jK-8O8"/>
-                            <constraint firstItem="5Ps-w6-oCd" firstAttribute="top" secondItem="z4M-Gd-CNJ" secondAttribute="bottom" constant="8" symbolic="YES" id="OtT-Lb-6OQ"/>
-                            <constraint firstItem="Lwe-oy-Udx" firstAttribute="top" secondItem="BYU-Pf-2jb" secondAttribute="bottom" constant="8" symbolic="YES" id="P0M-tr-0Gs"/>
-                            <constraint firstItem="oKb-wA-Uig" firstAttribute="leading" secondItem="tLO-vR-aV3" secondAttribute="leading" id="PvS-wM-b7h"/>
-                            <constraint firstItem="Vz0-Lw-aq0" firstAttribute="leading" secondItem="kYj-1X-rOw" secondAttribute="trailing" constant="1" id="SU7-AS-sTZ"/>
-                            <constraint firstItem="TnK-7M-fle" firstAttribute="top" secondItem="xit-VW-YC3" secondAttribute="bottom" constant="1" id="Six-WB-oBs"/>
-                            <constraint firstItem="qDb-ek-wV5" firstAttribute="trailing" secondItem="QYb-cC-uaH" secondAttribute="trailing" id="Sr3-EN-bJz"/>
-                            <constraint firstItem="iBm-nh-zNW" firstAttribute="baseline" secondItem="tLO-vR-aV3" secondAttribute="baseline" id="TBq-vH-jB6"/>
-                            <constraint firstItem="h0X-Ks-A9U" firstAttribute="top" secondItem="5Ps-w6-oCd" secondAttribute="bottom" constant="27" id="U29-xh-771"/>
-                            <constraint firstItem="zBJ-Kq-Frs" firstAttribute="baseline" secondItem="TnK-7M-fle" secondAttribute="baseline" id="VHH-Rk-3w6"/>
-                            <constraint firstItem="zBJ-Kq-Frs" firstAttribute="trailing" secondItem="wXp-RE-LsW" secondAttribute="trailing" id="VLC-WG-LbS"/>
-                            <constraint firstItem="xit-VW-YC3" firstAttribute="trailing" secondItem="TnK-7M-fle" secondAttribute="trailing" id="Wb6-mJ-kys"/>
-                            <constraint firstItem="oKb-wA-Uig" firstAttribute="trailing" secondItem="tLO-vR-aV3" secondAttribute="trailing" id="Wiz-HY-cvZ"/>
-                            <constraint firstItem="xit-VW-YC3" firstAttribute="top" secondItem="v9a-5G-bUe" secondAttribute="bottom" constant="1" id="Wr2-qO-Nda"/>
-                            <constraint firstItem="Lwe-oy-Udx" firstAttribute="centerX" secondItem="BYU-Pf-2jb" secondAttribute="centerX" id="a5i-3a-LOk"/>
-                            <constraint firstItem="zBJ-Kq-Frs" firstAttribute="baseline" secondItem="eAz-Ni-wpH" secondAttribute="baseline" id="cHM-gb-Jk0"/>
-                            <constraint firstItem="qDb-ek-wV5" firstAttribute="leading" secondItem="QYb-cC-uaH" secondAttribute="leading" id="e8I-Ut-3jC"/>
-                            <constraint firstItem="vKc-Bv-U9D" firstAttribute="baseline" secondItem="QYb-cC-uaH" secondAttribute="baseline" id="eNX-Ox-rlc"/>
-                            <constraint firstItem="eAz-Ni-wpH" firstAttribute="leading" secondItem="2kh-VH-n96" secondAttribute="leading" id="elF-uR-gvB"/>
-                            <constraint firstItem="v9a-5G-bUe" firstAttribute="top" secondItem="3db-WK-eDC" secondAttribute="bottom" constant="1" id="faq-mF-WxE"/>
-                            <constraint firstItem="vKc-Bv-U9D" firstAttribute="baseline" secondItem="oKb-wA-Uig" secondAttribute="baseline" id="gN7-pS-GSA"/>
-                            <constraint firstItem="XeD-Wc-Hxc" firstAttribute="leading" secondItem="3db-WK-eDC" secondAttribute="leading" id="gjf-Gy-6vb"/>
-                            <constraint firstItem="cDG-HD-rnl" firstAttribute="trailing" secondItem="qDb-ek-wV5" secondAttribute="trailing" id="gmh-Eo-fM3"/>
-                            <constraint firstItem="iBm-nh-zNW" firstAttribute="leading" secondItem="kYj-1X-rOw" secondAttribute="leading" id="hFg-2p-qO5"/>
-                            <constraint firstItem="oKb-wA-Uig" firstAttribute="trailing" secondItem="2kh-VH-n96" secondAttribute="trailing" id="hO8-4V-Ws6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="z4M-Gd-CNJ" secondAttribute="trailing" constant="-21" id="jUT-Nn-vEk"/>
-                            <constraint firstItem="iBm-nh-zNW" firstAttribute="baseline" secondItem="qDb-ek-wV5" secondAttribute="baseline" id="jUY-n9-s6t"/>
-                            <constraint firstItem="iBm-nh-zNW" firstAttribute="trailing" secondItem="kYj-1X-rOw" secondAttribute="trailing" id="kGf-1c-P6m"/>
-                            <constraint firstItem="h0X-Ks-A9U" firstAttribute="centerX" secondItem="5Ps-w6-oCd" secondAttribute="centerX" id="ka7-It-hAK"/>
-                            <constraint firstItem="xit-VW-YC3" firstAttribute="trailing" secondItem="v9a-5G-bUe" secondAttribute="trailing" id="l1q-8H-YXQ"/>
-                            <constraint firstItem="wXp-RE-LsW" firstAttribute="baseline" secondItem="2kh-VH-n96" secondAttribute="baseline" id="l5g-2l-E0N"/>
-                            <constraint firstAttribute="trailing" secondItem="oKb-wA-Uig" secondAttribute="trailing" id="lLn-ZD-RDY"/>
-                            <constraint firstItem="iBm-nh-zNW" firstAttribute="trailing" secondItem="vKc-Bv-U9D" secondAttribute="trailing" id="lUC-Sd-xvO"/>
-                            <constraint firstItem="cDG-HD-rnl" firstAttribute="baseline" secondItem="kYj-1X-rOw" secondAttribute="baseline" id="lbW-ZU-Yns"/>
-                            <constraint firstItem="z4M-Gd-CNJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-11" id="mDW-eA-ayB"/>
-                            <constraint firstItem="wXp-RE-LsW" firstAttribute="trailing" secondItem="vKc-Bv-U9D" secondAttribute="trailing" id="mSF-Ib-zj5"/>
-                            <constraint firstItem="5Gd-0y-fxl" firstAttribute="baseline" secondItem="xit-VW-YC3" secondAttribute="baseline" id="nE4-Ub-3nO"/>
-                            <constraint firstItem="oKb-wA-Uig" firstAttribute="leading" secondItem="2kh-VH-n96" secondAttribute="leading" id="o5W-Fz-K9r"/>
-                            <constraint firstItem="kYj-1X-rOw" firstAttribute="leading" secondItem="cDG-HD-rnl" secondAttribute="trailing" constant="1" id="po9-Nc-e0G"/>
-                            <constraint firstItem="3db-WK-eDC" firstAttribute="trailing" secondItem="XeD-Wc-Hxc" secondAttribute="trailing" id="pte-dd-YRM"/>
-                            <constraint firstItem="wXp-RE-LsW" firstAttribute="leading" secondItem="zBJ-Kq-Frs" secondAttribute="leading" id="qke-bK-rIF"/>
-                            <constraint firstItem="3db-WK-eDC" firstAttribute="leading" secondItem="v9a-5G-bUe" secondAttribute="leading" id="rOp-pr-dUS"/>
-                            <constraint firstItem="wXp-RE-LsW" firstAttribute="leading" secondItem="vKc-Bv-U9D" secondAttribute="leading" id="vAS-T6-wQK"/>
-                            <constraint firstItem="cDG-HD-rnl" firstAttribute="leading" secondItem="XeD-Wc-Hxc" secondAttribute="trailing" constant="1" id="wJN-8F-She"/>
-                            <constraint firstItem="2kh-VH-n96" firstAttribute="trailing" secondItem="eAz-Ni-wpH" secondAttribute="trailing" id="wOL-vV-rbC"/>
-                            <constraint firstItem="BYU-Pf-2jb" firstAttribute="top" secondItem="98m-hc-9LA" secondAttribute="bottom" constant="18" id="xPI-P0-u2X"/>
-                            <constraint firstItem="v9a-5G-bUe" firstAttribute="leading" secondItem="xit-VW-YC3" secondAttribute="leading" id="yLp-yq-hc3"/>
-                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="640" height="1136"/>
                     <connections>
+                        <outlet property="ACButtonLabel" destination="XeD-Wc-Hxc" id="1h2-13-wvt"/>
                         <outlet property="calculationDisplayLabel" destination="z4M-Gd-CNJ" id="avK-Kj-f1R"/>
+                        <outlet property="decimalButtonLabel" destination="zBJ-Kq-Frs" id="y9i-AD-qSf"/>
+                        <outlet property="divideButtonLabel" destination="Vz0-Lw-aq0" id="0bR-XO-gfN"/>
+                        <outlet property="eightButtonLabel" destination="qDb-ek-wV5" id="sT3-Uf-PXO"/>
+                        <outlet property="equalsButtonLabel" destination="eAz-Ni-wpH" id="0oZ-B8-NUW"/>
+                        <outlet property="extrasButtonLabel" destination="cDG-HD-rnl" id="m8o-B9-QG9"/>
+                        <outlet property="fiveButtonLabel" destination="QYb-cC-uaH" id="0bJ-qI-6MI"/>
+                        <outlet property="fourButtonLabel" destination="v9a-5G-bUe" id="0j9-Xb-rGV"/>
+                        <outlet property="minusButtonLabel" destination="oKb-wA-Uig" id="xl6-vg-Y6X"/>
+                        <outlet property="multiplyButtonLabel" destination="tLO-vR-aV3" id="Ure-Ke-QdQ"/>
+                        <outlet property="nineButtonLabel" destination="iBm-nh-zNW" id="nh6-gA-1y0"/>
+                        <outlet property="oneButtonLabel" destination="xit-VW-YC3" id="qVm-62-wj1"/>
                         <outlet property="operatorLabel" destination="h0X-Ks-A9U" id="SC0-Sa-0Dc"/>
+                        <outlet property="plusButtonLabel" destination="2kh-VH-n96" id="3bu-Xa-QOj"/>
+                        <outlet property="postiiveOrNegativeButtonLabel" destination="kYj-1X-rOw" id="Ip6-4H-lbk"/>
+                        <outlet property="sevenButtonLabel" destination="3db-WK-eDC" id="g1G-0A-TFu"/>
+                        <outlet property="sixButtonLabel" destination="vKc-Bv-U9D" id="YBg-05-xPs"/>
+                        <outlet property="threeButtonLabel" destination="wXp-RE-LsW" id="vjA-2K-A1k"/>
+                        <outlet property="twoButtonLabel" destination="5Gd-0y-fxl" id="JfN-5W-5fX"/>
+                        <outlet property="zeroButtonLabel" destination="TnK-7M-fle" id="9gD-5w-EeR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324" y="318.75"/>
+            <point key="canvasLocation" x="172.80000000000001" y="301.75"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="6L3-1g-u96">
             <objects>
                 <viewController id="SRX-De-JyB" customClass="FriendsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="C7y-A3-LZr"/>
-                        <viewControllerLayoutGuide type="bottom" id="Q0e-4W-Dec"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PnB-Gp-Eh4">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0Z-Af-Vqm">
-                                <rect key="frame" x="272" y="157" width="57" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F0Z-Af-Vqm">
+                                <rect key="frame" x="132" y="157" width="57" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="F0Z-Af-Vqm" firstAttribute="top" secondItem="C7y-A3-LZr" secondAttribute="bottom" constant="137" id="PPY-k1-QyD"/>
-                            <constraint firstItem="F0Z-Af-Vqm" firstAttribute="centerX" secondItem="PnB-Gp-Eh4" secondAttribute="centerX" id="lk5-Ta-aRc"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="BaZ-vg-58f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Wm-Ks-wvs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="844.5"/>
+            <point key="canvasLocation" x="1190.9333333333334" y="799.46000000000004"/>
         </scene>
         <!--Item-->
         <scene sceneID="xSm-4m-IRh">
             <objects>
                 <viewController id="WDz-Fc-Pmt" customClass="MsgsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="vPv-cN-Sb0"/>
-                        <viewControllerLayoutGuide type="bottom" id="cvh-NB-k3d"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Efy-fq-OvV">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sending msgs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itI-6P-1hh">
-                                <rect key="frame" x="245" y="157" width="110" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sending msgs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="itI-6P-1hh">
+                                <rect key="frame" x="105" y="157" width="110" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="itI-6P-1hh" firstAttribute="centerX" secondItem="Efy-fq-OvV" secondAttribute="centerX" id="6DR-NH-Hc5"/>
-                            <constraint firstItem="itI-6P-1hh" firstAttribute="top" secondItem="vPv-cN-Sb0" secondAttribute="bottom" constant="137" id="vuC-a1-9GK"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="fjQ-gW-GB1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wE-qF-uIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="1567.5"/>
+            <point key="canvasLocation" x="1190.9333333333334" y="1483.9000000000001"/>
         </scene>
         <!--Item-->
         <scene sceneID="PeV-rT-zMd">
             <objects>
                 <viewController id="Q7B-9H-fi0" customClass="CalenderViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aBL-CU-6ea"/>
-                        <viewControllerLayoutGuide type="bottom" id="rB1-Wv-kvc"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EuF-30-duL">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calender" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIY-nu-2RM">
-                                <rect key="frame" x="265" y="157" width="70" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calender" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cIY-nu-2RM">
+                                <rect key="frame" x="125" y="157" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="cIY-nu-2RM" firstAttribute="top" secondItem="aBL-CU-6ea" secondAttribute="bottom" constant="137" id="jYn-TG-qfR"/>
-                            <constraint firstItem="cIY-nu-2RM" firstAttribute="centerX" secondItem="EuF-30-duL" secondAttribute="centerX" id="qE9-BG-ABw"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="rdt-3E-JZa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UTm-fp-yTB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="2426.9999999999995"/>
+            <point key="canvasLocation" x="1190.9333333333334" y="2297.5599999999995"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="5PH-fq-i8j">
             <objects>
                 <viewController id="uZf-eI-h5I" customClass="OtherViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xGC-gF-fHX"/>
-                        <viewControllerLayoutGuide type="bottom" id="gI7-qz-0kp"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="e0r-Uw-3yG">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXN-FF-Cqg">
-                                <rect key="frame" x="279" y="157" width="43" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MXN-FF-Cqg">
+                                <rect key="frame" x="139" y="157" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="MXN-FF-Cqg" firstAttribute="top" secondItem="xGC-gF-fHX" secondAttribute="bottom" constant="137" id="VWb-kh-te3"/>
-                            <constraint firstItem="MXN-FF-Cqg" firstAttribute="centerX" secondItem="e0r-Uw-3yG" secondAttribute="centerX" id="mHw-hP-nnl"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="qYJ-5f-pzt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMg-67-C75" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2207" y="-14.999999999999998"/>
+            <point key="canvasLocation" x="1177.0666666666666" y="-14.199999999999998"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="42e-xt-TaL">
@@ -462,25 +396,21 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ch-35-uyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="362.25"/>
+            <point key="canvasLocation" x="724.79999999999995" y="342.93000000000001"/>
         </scene>
         <!--Cool Spy Stuff View Controller-->
         <scene sceneID="z99-CP-X8J">
             <objects>
                 <viewController id="TO0-Ol-AQE" customClass="CoolSpyStuffViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="j3J-MU-ZFy"/>
-                        <viewControllerLayoutGuide type="bottom" id="bbe-HQ-bEd"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nxZ-n3-2XR">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4t7-Wj-e51" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1254" y="1332"/>
+            <point key="canvasLocation" x="668.79999999999995" y="1260.96"/>
         </scene>
     </scenes>
     <resources>
@@ -488,4 +418,9 @@
         <image name="calculator square - Operator.png" width="160" height="160"/>
         <image name="calculator square other.png" width="160" height="160"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

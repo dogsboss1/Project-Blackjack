@@ -21,8 +21,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    /*CGRect frame0 = [self.zeroButtonLabel frame];
+    frame0.origin.x = 0;
+    frame0.origin.y = 976;
+    [self.zeroButtonLabel setFrame:frame0];*/
     
+    [self.zeroButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.oneButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.twoButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.threeButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.fourButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.fiveButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.sixButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.sevenButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.eightButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.nineButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
     
+    [self.decimalButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.ACButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.extrasButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.postiiveOrNegativeButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    
+    [self.divideButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.multiplyButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.minusButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.plusButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
+    [self.equalsButtonLabel setFrame:CGRectMake(0, 976, 159, 160)];
 }
 
 - (void)addNumber:(int)number {
@@ -90,7 +114,6 @@
     self.calculationDisplayLabel.text = stack;
     }
 }
-
 
 - (IBAction)showAllCalculationsButtonPressed:(UIButton *)sender{
     
