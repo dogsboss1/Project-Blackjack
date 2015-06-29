@@ -27,7 +27,7 @@
                                     <constraint firstAttribute="width" constant="149" id="gHe-vI-NWM"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="AC/C">
+                                <state key="normal" title="AC/C" backgroundImage="calculator square other.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -54,7 +54,7 @@
                                     <constraint firstAttribute="height" constant="150" id="qOL-pe-dWC"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="+/-">
+                                <state key="normal" title="+/-" backgroundImage="calculator square other.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -81,7 +81,7 @@
                                     <constraint firstAttribute="width" constant="149" id="bfj-p4-xBd"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="( )">
+                                <state key="normal" title="( )" backgroundImage="calculator square other.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -108,7 +108,7 @@
                                     <constraint firstAttribute="width" constant="149" id="gMP-Ow-cdb"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="7">
+                                <state key="normal" title="7" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -135,7 +135,7 @@
                                     <constraint firstAttribute="height" constant="150" id="uP3-Pa-jD5"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="9">
+                                <state key="normal" title="9" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -162,7 +162,7 @@
                                     <constraint firstAttribute="height" constant="150" id="jsz-Em-xyn"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="8">
+                                <state key="normal" title="8" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -189,7 +189,7 @@
                                     <constraint firstAttribute="width" constant="149" id="q5V-IY-pUW"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="4">
+                                <state key="normal" title="4" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -216,7 +216,7 @@
                                     <constraint firstAttribute="height" constant="150" id="OCH-d1-VwA"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="6">
+                                <state key="normal" title="6" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -243,7 +243,7 @@
                                     <constraint firstAttribute="width" constant="149" id="fYm-ea-bVE"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="5">
+                                <state key="normal" title="5" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -270,7 +270,7 @@
                                     <constraint firstAttribute="height" constant="150" id="e0F-YZ-Ndk"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="1">
+                                <state key="normal" title="1" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -324,7 +324,7 @@
                                     <constraint firstAttribute="height" constant="150" id="wXx-t7-rge"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="2">
+                                <state key="normal" title="2" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -351,7 +351,7 @@
                                     <constraint firstAttribute="width" constant="149" id="Cx3-2q-Hmf"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="0">
+                                <state key="normal" title="0" backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -378,7 +378,7 @@
                                     <constraint firstAttribute="height" constant="150" id="3ra-ke-iIx"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title=".">
+                                <state key="normal" title="." backgroundImage="calculator square - Numbs.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -405,7 +405,7 @@
                                     <constraint firstAttribute="height" constant="150" id="sQg-he-CxE"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="=">
+                                <state key="normal" title="=" backgroundImage="calculator square - Operator.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -432,7 +432,7 @@
                                     <constraint firstAttribute="width" constant="150" id="lpj-ay-tRE"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="+">
+                                <state key="normal" title="+" backgroundImage="calculator square - Operator.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -459,7 +459,7 @@
                                     <constraint firstAttribute="height" constant="150" id="wgH-La-Sob"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="-">
+                                <state key="normal" title="-" backgroundImage="calculator square - Operator.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -486,7 +486,7 @@
                                     <constraint firstAttribute="height" constant="150" id="yRE-Aq-AfU"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="X">
+                                <state key="normal" title="X" backgroundImage="calculator square - Operator.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -513,7 +513,7 @@
                                     <constraint firstAttribute="width" constant="150" id="bQw-Si-CpG"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="/">
+                                <state key="normal" title="/" backgroundImage="calculator square - Operator.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -535,7 +535,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Operator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0X-Ks-A9U">
                                 <rect key="frame" x="286" y="250" width="69" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwe-oy-Udx">
@@ -550,7 +550,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kb-NY-UVM">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYU-Pf-2jb">
@@ -568,16 +568,23 @@
                                 <state key="normal" title="Show all">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="96" y="14" width="59" height="21"/>
-                                </variation>
                                 <connections>
                                     <action selector="showAllCalculationsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFS-B7-MYg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkW-wL-TZR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Other">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1dF-t9-69G" kind="presentation" id="QBV-qC-W9O"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="YkW-wL-TZR" firstAttribute="leading" secondItem="BYU-Pf-2jb" secondAttribute="trailing" constant="8" symbolic="YES" id="0Q9-bU-E8O"/>
                             <constraint firstItem="tLO-vR-aV3" firstAttribute="leading" secondItem="iBm-nh-zNW" secondAttribute="trailing" constant="1" id="3Zx-Rx-PcK"/>
                             <constraint firstItem="5kb-NY-UVM" firstAttribute="bottom" secondItem="5Ps-w6-oCd" secondAttribute="bottom" id="45W-c9-wOa"/>
                             <constraint firstItem="BYU-Pf-2jb" firstAttribute="baseline" secondItem="5Ps-w6-oCd" secondAttribute="baseline" id="4mR-Oh-KlY"/>
@@ -637,6 +644,7 @@
                             <constraint firstItem="Lwe-oy-Udx" firstAttribute="baseline" secondItem="5Ps-w6-oCd" secondAttribute="firstBaseline" id="df4-HJ-Y01"/>
                             <constraint firstItem="TnK-7M-fle" firstAttribute="baseline" secondItem="zBJ-Kq-Frs" secondAttribute="baseline" id="eii-FV-Sxn"/>
                             <constraint firstItem="eAz-Ni-wpH" firstAttribute="leading" secondItem="zBJ-Kq-Frs" secondAttribute="trailing" constant="1" id="fal-qK-XNU"/>
+                            <constraint firstItem="YkW-wL-TZR" firstAttribute="baseline" secondItem="BYU-Pf-2jb" secondAttribute="baseline" id="fcn-ED-OkN"/>
                             <constraint firstItem="3db-WK-eDC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="197" id="hmG-b6-Kk0"/>
                             <constraint firstItem="xit-VW-YC3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="n9b-w2-54L"/>
                             <constraint firstItem="xit-VW-YC3" firstAttribute="leading" secondItem="TnK-7M-fle" secondAttribute="leading" id="nUM-QN-9hl"/>
@@ -660,7 +668,12 @@
                             <constraint firstItem="vKc-Bv-U9D" firstAttribute="leading" secondItem="QYb-cC-uaH" secondAttribute="trailing" constant="1" id="zEA-wA-ftS"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="YkW-wL-TZR"/>
+                            </mask>
                             <mask key="constraints">
+                                <exclude reference="0Q9-bU-E8O"/>
+                                <exclude reference="fcn-ED-OkN"/>
                                 <exclude reference="45W-c9-wOa"/>
                                 <exclude reference="I0j-02-t8z"/>
                                 <exclude reference="dSo-jY-ZQ1"/>
@@ -751,8 +764,11 @@
                                 <include reference="5kb-NY-UVM"/>
                                 <include reference="BYU-Pf-2jb"/>
                                 <include reference="5Ps-w6-oCd"/>
+                                <include reference="YkW-wL-TZR"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="0Q9-bU-E8O"/>
+                                <include reference="fcn-ED-OkN"/>
                                 <include reference="45W-c9-wOa"/>
                                 <include reference="I0j-02-t8z"/>
                                 <include reference="dSo-jY-ZQ1"/>
@@ -862,7 +878,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Friends" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0Z-Af-Vqm">
                                 <rect key="frame" x="132" y="157" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -889,7 +905,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sending msgs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itI-6P-1hh">
                                 <rect key="frame" x="105" y="157" width="110" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -916,7 +932,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calender" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIY-nu-2RM">
                                 <rect key="frame" x="125" y="157" width="70" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -943,7 +959,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXN-FF-Cqg">
                                 <rect key="frame" x="139" y="157" width="43" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -976,6 +992,149 @@
             </objects>
             <point key="canvasLocation" x="1359" y="362.25"/>
         </scene>
+        <!--Calc Test View Controller-->
+        <scene sceneID="7x7-qD-j8H">
+            <objects>
+                <viewController id="1dF-t9-69G" customClass="calcTestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UJG-PN-qBN"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZtX-Qy-ErK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mrp-zu-uzY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yVB-fq-e60">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="KEK-TF-gP1">
+                                    <size key="itemSize" width="378" height="378"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="numbs" id="pvF-lr-xCY" customClass="NumbCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="378" height="378"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Qo-Z0-LBs">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnr-qb-1t8">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Button">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="numbButtonPressed:" destination="pvF-lr-xCY" eventType="touchUpInside" id="t8A-od-UbZ"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="3Qo-Z0-LBs" firstAttribute="leading" secondItem="pvF-lr-xCY" secondAttribute="leadingMargin" constant="-8" id="5Wm-Ir-o6a"/>
+                                            <constraint firstItem="vnr-qb-1t8" firstAttribute="centerY" secondItem="3Qo-Z0-LBs" secondAttribute="centerY" id="Dfx-CK-vkO"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="3Qo-Z0-LBs" secondAttribute="trailing" constant="-8" id="NaP-Qv-jrp"/>
+                                            <constraint firstItem="vnr-qb-1t8" firstAttribute="centerX" secondItem="3Qo-Z0-LBs" secondAttribute="centerX" id="Pd6-P2-aBi"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="3Qo-Z0-LBs" secondAttribute="bottom" constant="-8" id="b7B-oC-1ec"/>
+                                            <constraint firstItem="3Qo-Z0-LBs" firstAttribute="top" secondItem="pvF-lr-xCY" secondAttribute="topMargin" constant="-8" id="djW-xN-LFe"/>
+                                        </constraints>
+                                        <size key="customSize" width="378" height="378"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="3Qo-Z0-LBs"/>
+                                                <exclude reference="vnr-qb-1t8"/>
+                                            </mask>
+                                            <mask key="constraints">
+                                                <exclude reference="Dfx-CK-vkO"/>
+                                                <exclude reference="Pd6-P2-aBi"/>
+                                                <exclude reference="5Wm-Ir-o6a"/>
+                                                <exclude reference="NaP-Qv-jrp"/>
+                                                <exclude reference="b7B-oC-1ec"/>
+                                                <exclude reference="djW-xN-LFe"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular">
+                                            <mask key="subviews">
+                                                <include reference="3Qo-Z0-LBs"/>
+                                                <include reference="vnr-qb-1t8"/>
+                                            </mask>
+                                            <mask key="constraints">
+                                                <include reference="Dfx-CK-vkO"/>
+                                                <include reference="Pd6-P2-aBi"/>
+                                                <include reference="5Wm-Ir-o6a"/>
+                                                <include reference="NaP-Qv-jrp"/>
+                                                <include reference="b7B-oC-1ec"/>
+                                                <include reference="djW-xN-LFe"/>
+                                            </mask>
+                                        </variation>
+                                        <connections>
+                                            <outlet property="backgroundImage" destination="3Qo-Z0-LBs" id="zPJ-W6-CeZ"/>
+                                            <outlet property="numbsButton" destination="vnr-qb-1t8" id="8XF-T6-n8y"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhY-uO-VNQ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yVB-fq-e60" firstAttribute="bottom" secondItem="ZtX-Qy-ErK" secondAttribute="top" id="7B1-Q1-75D"/>
+                            <constraint firstItem="yVB-fq-e60" firstAttribute="leading" secondItem="mrp-zu-uzY" secondAttribute="leading" id="CzW-Va-PaE"/>
+                            <constraint firstItem="hhY-uO-VNQ" firstAttribute="trailing" secondItem="mrp-zu-uzY" secondAttribute="trailingMargin" id="Off-TT-3oE"/>
+                            <constraint firstAttribute="trailing" secondItem="yVB-fq-e60" secondAttribute="trailing" id="Qvm-G4-Q7M"/>
+                            <constraint firstItem="yVB-fq-e60" firstAttribute="top" secondItem="hhY-uO-VNQ" secondAttribute="bottom" constant="58" id="UoH-aF-gHZ"/>
+                            <constraint firstItem="hhY-uO-VNQ" firstAttribute="top" secondItem="UJG-PN-qBN" secondAttribute="bottom" constant="8" symbolic="YES" id="x4O-Tp-OrT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="yVB-fq-e60"/>
+                                <exclude reference="hhY-uO-VNQ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Off-TT-3oE"/>
+                                <exclude reference="x4O-Tp-OrT"/>
+                                <exclude reference="7B1-Q1-75D"/>
+                                <exclude reference="CzW-Va-PaE"/>
+                                <exclude reference="Qvm-G4-Q7M"/>
+                                <exclude reference="UoH-aF-gHZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="yVB-fq-e60"/>
+                                <include reference="hhY-uO-VNQ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Off-TT-3oE"/>
+                                <include reference="x4O-Tp-OrT"/>
+                                <include reference="7B1-Q1-75D"/>
+                                <include reference="CzW-Va-PaE"/>
+                                <include reference="Qvm-G4-Q7M"/>
+                                <include reference="UoH-aF-gHZ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="calcualtionsLabel" destination="hhY-uO-VNQ" id="cuK-WN-2Sd"/>
+                        <outlet property="collectionView" destination="yVB-fq-e60" id="E2j-gV-PwB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nrl-Vk-8K8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="229" y="1089"/>
+        </scene>
         <!--Cool Spy Stuff View Controller-->
         <scene sceneID="z99-CP-X8J">
             <objects>
@@ -997,5 +1156,7 @@
     </scenes>
     <resources>
         <image name="calculator square - Numbs.png" width="160" height="160"/>
+        <image name="calculator square - Operator.png" width="160" height="160"/>
+        <image name="calculator square other.png" width="160" height="160"/>
     </resources>
 </document>

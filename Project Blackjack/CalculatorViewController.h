@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CalculatorViewController : UIViewController
+@interface CalculatorViewController : UIViewController 
 
 //@property (weak, nonatomic) IBOutlet UITextView *calculationsDisplayTextField;
 
